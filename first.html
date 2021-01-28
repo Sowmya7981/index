@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample title</title>
+	<link rel="icon" href="profile.svg"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		
+		.parent{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex-wrap:nowrap;
+			width: 100%;
+
+		}
+		.child
+		{
+			border: 1px solid pink;
+			width:25%;
+			font-size: 20px;
+			padding:1% 1% 1% 1%;
+
+		}
+		@media only screen and (min-width:320px) and (max-width:480px){
+			body{
+				background-color: blue;
+			}
+			
+		.child{
+			width:25%;
+			padding: 1%;
+			margin: 1%;
+	}
+}
+	@media only screen and (min-width:481px) and (max-width:768px){
+			body{
+				background-color:green;
+			}
+			
+		.child{
+			width:40%;
+			font-weight: 200;
+			border: 1px solid #fff;
+			border-radius:10px;
+			box-shadow: 3px 3px 3px rgb(170,46,46);
+			padding:2%;
+		    margin:1%;
+	}
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+			body{
+				background-color:pink;
+			}
+			
+		.child{
+			width:40%;
+			font-weight: 200;
+			border: 1px solid #fff;
+			border-radius:10px;
+			box-shadow: 0px 8px 8px -8px #000;
+			padding:2%;
+		    margin:1%;
+	}
+
+}
+
+	</style>
+	
+</head>
+<body>
+	
+		<section class="parent">
+			<article class="child">america
+			</article>
+			<article class="child">bangla
+			</article>
+            <article class="child">canada
+			</article>
+			 <article class="child">canada1
+			</article>
+		</section>
+	
+
+		
+</body>
+</html>

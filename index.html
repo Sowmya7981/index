@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+header
+{
+	background:
+	#ff1000;
+	color:pink;
+}
+		.parent{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			flex-wrap:nowrap;
+			
+
+		}
+		
+		.child1{
+			border: 1px solid pink;
+			width:25%;
+			border-radius: 8px;
+			box-shadow:8px 8px 10px 10px;
+			font-size: 20px;
+			padding:1% 1% 1% 1%;
+		
+			margin: 1%;
+
+		}
+		.child2{
+			border: 1px solid pink;
+			width:65%;
+			border-radius:8px;
+			box-shadow: 8px 8px 10px 10px;
+			font-size: 20px;
+			padding:1% 1% 1% 1%;
+			
+			margin: 1%;
+
+		}
+		.child1 img{
+			width: 50%;
+			display:block;
+			margin: 0% auto;
+		}
+		@media only screen and (min-width: 320px) and (max-width: 480px)
+		{
+			.child1,
+			.child2{
+				width:25%;
+				font-size: 25px;
+			}
+		}
+		
+
+
+	</style>
+	
+</head>
+<body>
+	<header>profile</header>
+	<section class="parent">
+		<article class="child1">
+			<img src="profile.svg">
+			<h2 align="center">abc</h2>
+			<a href="mailto:SOWMYA@GMAIL.COM">SOWMYA@GMAIL.COM</a>
+		</article>
+		<article class="child2">
+		<h1>Summary</h1>
+		<ul>
+			<li>coffee</li>
+			<li>tea</li>
+			<li>milk</li>
+		</ul>
+		
+		</article>
+	</section>
+</body>
+</html>
+
